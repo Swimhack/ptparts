@@ -1,0 +1,14 @@
+{
+  "name": "ptparts-pitch",
+  "version": "1.0.0",
+  "description": "Bilingual pitch deck for Power Truck Parts LLC — Strickland Technology",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.0",
+    "stripe": "^14.0.0"
+  }
+}
