@@ -75,7 +75,7 @@ app.post('/checkout', async (req, res) => {
         res.redirect(303, session.url);
     } catch (err) {
         console.error('Stripe error:', err.message);
-        res.status(500).send('Payment setup error. Please call (832) 818-5810.');
+        res.status(500).send('Payment setup error. Please call (713) 444-6732.');
     }
 });
 
